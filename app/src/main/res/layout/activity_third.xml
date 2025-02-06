@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    tools:context=".ThirdActivity"
+    android:background="@drawable/cinema">
+
+    <EditText
+        android:id="@+id/source"
+        android:layout_width="369dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="56dp"
+        android:hint="source location"
+        android:textColor="#FAEEEE"
+        android:textColorHint="@color/white"
+        android:textSize="23sp"
+        app:layout_constraintBottom_toTopOf="@+id/destination"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/destination"
+        android:layout_width="369dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="52dp"
+        android:hint="destination location"
+        android:textColor="#FAEEEE"
+        android:textColorHint="@color/white"
+        android:textSize="23sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnSubmit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="231dp"
+        android:layout_height="61dp"
+        android:layout_marginBottom="96dp"
+        android:backgroundTint="@color/clear_black"
+        android:text="search location"
+        android:textSize="21sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.435"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
