@@ -1,3 +1,4 @@
+# CinemaApp
 Here is the CinemaApp , developed using Android Studio. The main idea of this application is to use a json file, from whom i take the datas to build the application. 
 That's the example of the json file: 
 
