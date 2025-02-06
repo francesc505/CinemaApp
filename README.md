@@ -1,4 +1,4 @@
-#CinemaApp
+# CinemaApp
 
 The CinemaApp is an innovative movie showcase application developed using Android Studio. Its core functionality revolves around the efficient extraction and utilization of data from a JSON file, which acts as the backbone for populating the app with movie details.
 
